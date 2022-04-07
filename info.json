@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "data"
+    },
+    {
+      "name": "Lightroom"
+    },
+    {
+      "name": "Projects",
+      "children": [{ "name": "misc" }, { "name": "multi-span" }]
+    },
+    {
+      "name": "Research"
+    },
+    {
+      "name": "Scripts"
+    },
+    {
+      "name": "Sites"
+    },
+    {
+      "name": "Work"
+    }
+  ],
+  "source": "/mnt/pass/backups/regular",
+  "destination": "/home/zeux/data-mirror"
+}
+
