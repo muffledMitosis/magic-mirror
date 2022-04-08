@@ -9,6 +9,7 @@ from InquirerPy import inquirer
 from InquirerPy.base.control import Choice
 from InquirerPy.separator import Separator
 
+# Writes folder structure to destination or specified location
 def writeFolderStructure(destination=state["info"]["destination"]):
 	for folder in state["info"]["folders"]:
 		path = os.path.join(destination, folder["name"])
@@ -18,6 +19,8 @@ def writeFolderStructure(destination=state["info"]["destination"]):
 				cp = os.path.join(path, child["name"])
 				os.mkdir(cp)
 
+# Copies over files from source to destination
+# (Prompts for files)
 def copyOver():
 	dest = state["info"]["destination"]
 	src = state["info"]["source"]
