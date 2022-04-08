@@ -13,9 +13,9 @@ from InquirerPy import prompt
 # confirm = result["confirm"]
 
 def main():
-	opts.writeFolderStructure()
+    opts.copyOver()
 def cleanup():
-	state["infoFile"].close()
+    state["infoFile"].close()
 
 main()
 cleanup()

@@ -24,6 +24,5 @@
     }
   ],
   "source": "/mnt/pass/backups/regular",
-  "destination": "/home/zeux/data-mirror"
+  "destination": "./destination"
 }
-
