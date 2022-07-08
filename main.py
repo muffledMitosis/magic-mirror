@@ -4,10 +4,18 @@ import options as opts
 
 from InquirerPy import prompt
 
+# questions = [
+#     {"type": "input", "message": "What's your name:", "name": "name"},
+#     {"type": "confirm", "message": "Confirm?", "name": "confirm"},
+# ]
+# result = prompt(questions)
+# name = result["name"]
+# confirm = result["confirm"]
+
 def main():
-    opts.copyOver()
+	opts.copyOver()
 def cleanup():
-    state["infoFile"].close()
+	state["infoFile"].close()
 
 main()
 cleanup()
